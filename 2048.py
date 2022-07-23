@@ -10,7 +10,7 @@ pygame.font.init()
 WIDTH, HEIGHT = 900, 700
 
 WIN = pygame.display.set_mode((WIDTH,HEIGHT)) #surface
-pygame.display.set_caption("11")
+pygame.display.set_caption("2048")
 
 BOARD_CONSTANT = 10
 
@@ -86,6 +86,8 @@ def main():
 	run = True
 	clock = pygame.time.Clock()
 	game_area = pygame.Rect(WIDTH//2-BOARD_CONSTANT//2*3-2*100, HEIGHT//2-BOARD_CONSTANT//2*3-2*100, 4*100+3*BOARD_CONSTANT, 4*100 + 3*BOARD_CONSTANT)
+	WIN.fill(COLORS.BLACK)
+	pygame.display.update()
 	while run:
 		clock.tick(FPS)
 		for event in pygame.event.get():
@@ -130,7 +132,7 @@ def main():
 						pygame.quit()
 						sys.exit()
 			break
-				
+
 	main()
 	
 if __name__ == '__main__':
