@@ -25,18 +25,18 @@ class COLORS:
 	RED = (255,0,0)
 
 class TILES:
-	TILE0 = pygame.image.load(os.path.join('Assets', '0.png'))
-	TILE1 = pygame.image.load(os.path.join('Assets', '2.png'))
-	TILE2 = pygame.image.load(os.path.join('Assets', '4.png'))
-	TILE3 = pygame.image.load(os.path.join('Assets', '8.png'))
-	TILE4 = pygame.image.load(os.path.join('Assets', '16.png'))
-	TILE5 = pygame.image.load(os.path.join('Assets', '32.png'))
-	TILE6 = pygame.image.load(os.path.join('Assets', '64.png'))
-	TILE7 = pygame.image.load(os.path.join('Assets', '128.png'))
-	TILE8 = pygame.image.load(os.path.join('Assets', '256.png'))
-	TILE9 = pygame.image.load(os.path.join('Assets', '512.png'))
-	TILE10 = pygame.image.load(os.path.join('Assets', '1024.png'))
-	TILE11 = pygame.image.load(os.path.join('Assets', '2048.png'))
+	TILE0 = pygame.image.load(os.path.join('assets', '0.png'))
+	TILE1 = pygame.image.load(os.path.join('assets', '2.png'))
+	TILE2 = pygame.image.load(os.path.join('assets', '4.png'))
+	TILE3 = pygame.image.load(os.path.join('assets', '8.png'))
+	TILE4 = pygame.image.load(os.path.join('assets', '16.png'))
+	TILE5 = pygame.image.load(os.path.join('assets', '32.png'))
+	TILE6 = pygame.image.load(os.path.join('assets', '64.png'))
+	TILE7 = pygame.image.load(os.path.join('assets', '128.png'))
+	TILE8 = pygame.image.load(os.path.join('assets', '256.png'))
+	TILE9 = pygame.image.load(os.path.join('assets', '512.png'))
+	TILE10 = pygame.image.load(os.path.join('assets', '1024.png'))
+	TILE11 = pygame.image.load(os.path.join('assets', '2048.png'))
 		
 def convert(tile):
 	if tile.val == 0:
